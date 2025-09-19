@@ -307,6 +307,7 @@ color: #0f84fd;
     padding: 2% 0% 2% 8% ;
      box-sizing: border-box;
      border-radius: 20px;
+     overflow: hidden;
 }
 
 .container2flex1{
@@ -366,7 +367,7 @@ color: #0f84fd;
     border-radius: 20px;
 }
 .a5{
-    font-size: 0.97em;
+    font-size: 0.8em;
 }
 
 .container3{
@@ -624,7 +625,7 @@ color: #0f84fd;
 
 @media screen and (max-width:760px) {
 body{
-    font-weight: 6px;
+    font-weight: 1px;
 }
 .nav3,.nav1,.nav2{
     display: none;;
