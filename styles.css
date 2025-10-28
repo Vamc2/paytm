@@ -236,16 +236,16 @@ color: #0f84fd;
 }
 #sidebarchild{
     background-color: white;
-    display: none;
+    /* display: none; */
     position: absolute;
-    left: 400px;
+    left: -800px;
     top: 60px;
-    transition: left 2s linear 0s;
+    transition: left 1s ease-in-out 0s;
 
 }
 #sidebarchild:target{
-    display: block;
-    left:0px
+    /* display: block; */
+    left:0px;
 }
 
 
@@ -650,10 +650,21 @@ body{
     display: flex;
     flex-direction: row;
     gap: 20px;
-}
+}}
+
+/* @keyframes left {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
 
     
-}
+
 
 /* @media (min-width:1170px) and (max-width:3333px) {
     .banners3{
